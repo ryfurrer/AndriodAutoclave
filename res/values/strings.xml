@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoclaveSizing</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="heads">
+        <item>Hemi Spherical</item>
+        <item>2:1 Elliptical</item>
+    </string-array>
+    <string-array name="diameter">
+        <item>1.00</item>
+        <item>1.25</item>
+        <item>1.50</item>
+        <item>1.75</item>
+        <item>2.00</item>
+        <item>2.25</item>
+        <item>2.50</item>
+        <item>2.75</item>
+        <item>3.00</item>
+        <item>3.25</item>
+        <item>3.50</item>
+        <item>3.75</item>
+        <item>4.00</item>
+        <item>4.25</item>
+        <item>4.50</item>
+        <item>4.75</item>
+        <item>5.00</item>
+        <item>5.25</item>
+        <item>5.50</item>
+        <item>5.75</item>
+        <item>6.00</item>
+    </string-array>
+    <string-array name="time_units">
+        <item>min</item>
+        <item>h</item>
+    </string-array>
+    <string-array name="rate_units">
+        <item>m^3/h</item>
+        <item>ft^3/h</item>
+    </string-array>
+
+    <string-array name="distance_units">
+        <item>mm</item>
+        <item>in</item>
+    </string-array>
+    
+    <string name="about">This app calculates the length of horizontal continuous autoclaves with diameters between 1 and 6 meters based on the flowrate, retention time, and freeboard entered. Flowrates between 100 and 1000 m3/h, retention times of 30 to 180 minutes, and freeboards of 300 to 1500 mm are allowed. Gassing factors between 0.8 and 1. The autoclave length (tangent to tangent) to diameter is restricted to between 1 and 8. The sizing allows for either  hemispherical or 2:1 elliptical heads. Compartment walls are not included in the length calculation and must be added if significant.</string>
+    
+    <string name="input_the_following_">Input the following:</string>
+    
+    <string name="design_flowrate_">Design Flowrate:</string>
+    
+    <string name="retention_time_">Retention time:</string>
+    
+    <string name="average_freeboard_">Average Freeboard:</string>
+    
+    <string name="select_head_type_">Select Head Type:</string>
+    
+    <string name="gassing_factor_">"Gassing Factor: "</string>
+    
+    <string name="inside_diameter_m_">Inside Diameter (m)</string>
+    
+    <string name="get_length">Get Length</string>
+    
+    <string name="click_for_details">Click for details</string>
+    
+    <string name="total_static_volume_">"Total Static Volume: "</string>
+    
+    <string name="head_static_volume_">"Head Static Volume: "</string>
+    
+    <string name="dynamic_volume_">"Dynamic Volume: "</string>
+    
+    <string name="fluid_height_">"Fluid Height: "</string>
+    
+    <string name="autoclave_length_tan_to_tan_">"Autoclave length, tan to tan: "</string>
+    
+    <string name="number_of_compartments_">"Number of compartments: "</string>
+    
+    <string name="autoclave_length_dia_ratio_">"Autoclave Length/ Dia ratio: "</string>
+    
+    <string name="head_">"Head: "</string>
+    
+    <string name="cylinder_">"Cylinder: "</string>
+    
+    <string name="total_volume_">"Total Volume:        "</string>
+    
+    <string name="autoclave_details">AUTOCLAVE DETAILS</string>
+
+</resources>
